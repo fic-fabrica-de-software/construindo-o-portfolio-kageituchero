@@ -1,0 +1,39 @@
+header{
+    background-color: black;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeca1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    padding-left: 40px;
+}
+
+.cabeca2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+main{
+
+}
+
+.nome{
+    font-size: 50px;
+    padding-left: 80px;
+    margin-top: 100px;
+}
+
+.mini_mensagem{
+    padding-left: 80px;
+    font-size: 29px;
+
+}
