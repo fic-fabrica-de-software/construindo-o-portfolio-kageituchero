@@ -1,37 +1,22 @@
 body{
-    background: #000000;
-    background: linear-gradient(-90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    background: #e3e3e3;
+    background: radial-gradient(circle,rgba(227, 227, 227, 1) 50%, rgba(0, 0, 0, 1) 200%);
 }
 
 .flex{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.text{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    width: 600px;
+    height: 600px;
 }
 
 .img{
-    width: 100px;
-    height: 100px;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.cabeca{
-font-family: 'Times New Roman', Times, serif;
-font-size: 100px;
-padding-top: 20px;
-padding-left: 40px;
-padding-right: 40px;
-color: crimson;
-}
-
-.nome{
-    padding-left: 100px;
-    padding-top: 200px;
-    font-size: 70px;
-    margin: 1px;
-}
-
-.mini-mensagem{
-    padding-left: 100px;
+    width: 600px;
+    height: 600px;
 }
